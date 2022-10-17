@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F0E0BE;
+}
+
+
+/*Formatação de Tag*/
+a {
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-block: 5%;
+    padding-inline: 10%;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited{
+    width: 1;
+}
+
+h1 a:hover {
+    color: rgb(168, 201, 230);
+    background-color: rgb(22, 69, 146);
+}
+
+a:active {
+    color: white;
+}
+
+progress {
+    width: 60%;
+    height: 30px;
+}
+
+/*IDs*/
+#bg {
+    background: linear-gradient(#7CC9C4, #104E61);
+    width: 100%;
+}
+
+#cabeça {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+#nav {
+    font-family: caveat;
+    font-size: 120%;
+}
+
+#card {
+    background-color: #4C4946;
+    border-radius: 30px;
+    padding-left: 5%;
+}
+
+#card div h2 {
+    color: #fff;
+    font-size: 250%;
+    margin: 1%;
+}
+
+#card h1 {
+    color: #D29631;
+    font-size: 500%;
+    margin: 1%;
+}
+
+#card h2 {
+    color: #C6CAE0;
+    font-size: 300%;
+    margin: 1%;
+    margin-bottom: 2%;
+    font-family: caveat;
+}
+
+#card a {
+    color: white;
+    padding: 0;
+    font-size: 220%;
+    background-color: rgb(22, 69, 146);
+    margin: 1%;
+}
+
+#sumario {
+    font-size: 150%;
+}
+
+#assunto {
+    width: 20%;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#nome {
+    width: 19%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#email {
+    width: 19%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#tell {
+    width: 19%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#msg {
+    width: 19%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#btn{
+    background-color: rgb(61, 61, 182);
+    color: white;
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 10px;
+}
+
+/*Class*/
+
+.padrao {
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.foot {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.perfil {
+    border-radius: 100%;
+    height: 200px;
+}
+
+.branco {
+    color: #fff;
+    font-size: 150%;
+}
+
+.ativo {
+    background-color: #4C4946;
+    color: white;
+}
+
+.link a{
+    padding: 0;
+    text-decoration: underline;
+}
